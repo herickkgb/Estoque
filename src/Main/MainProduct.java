@@ -46,6 +46,8 @@ public class MainProduct {
 		
 		System.out.printf("\n \n \nremoved data: " + add.name + "," + "$ " + add.price + ", " + add.stock + " Units, "
 				+ "Total: $ " + "%.2f", dimi);
+		
+		sc.close();
 
 	}
 
